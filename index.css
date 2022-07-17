@@ -20,6 +20,7 @@ p, h3 {
 }
 
 /*------container------*/
+
 .container {
   width: 90vw;
   max-width: 1440px;
@@ -33,6 +34,7 @@ p, h3 {
 }
 
 /*------cover------*/
+
 .card {
   background: #fff;
   box-shadow: 5px 5px 5px #00000040;
@@ -59,6 +61,7 @@ p, h3 {
 }
 
 /*------content------*/
+
 .card_content {
   padding: 0 16px 8px;
 }
@@ -83,6 +86,7 @@ p, h3 {
 }
 
 /*---------------*/
+
 .like {
   width: 15px;
 }
