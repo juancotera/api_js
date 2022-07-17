@@ -22,7 +22,7 @@ async function challenge() {
     div.innerHTML += `
     <div class="card">
       <div class="card_cover">
-        <img class="card_cover--background" src="${data.background}" alt="${data.name}">
+        <img class="card_cover--background" src="${data.background || 'https://storage.googleapis.com/bucket-larnu/media/business/153/images/BO64E73I.png'}" alt="${data.name}">
         <img class="card_cover--logo"  src="${data.icon}" alt="${data.name}">
       </div>
       <div class="card_content">
